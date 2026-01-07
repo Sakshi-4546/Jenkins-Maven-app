@@ -37,13 +37,13 @@ mavenApp/
 
 ### Step 2 :- Configure Tools in Jenkins
 
-1) Go to Manage Jenkins → Tools Configuration
-2) Configure:  
+#### 1) Go to Manage Jenkins → Tools Configuration
+#### 2) Configure:  
 - JDK → select installed Java version     
 
 ![](./Img/Screenshot%20(287).png)
 
-- Maven → give name (e.g. Maven3) and select version
+#### - Maven → give name (e.g. Maven3) and select version
 
 ![](./Img/Screenshot%20(288).png)
 
@@ -56,20 +56,20 @@ mavenApp/
 
 then
 
-1) Select Git  
-2) Enter Repository URL
-3) Branch: main or master
+#### 1) Select Git  
+#### 2) Enter Repository URL
+#### 3) Branch: main or master
 
 ![](./Img/Screenshot%20(290).png)
 
-4) Triggers: Select Github hook trigger for GITScm polling
+#### 4) Triggers: Select Github hook trigger for GITScm polling
 
 ![](./Img/Screenshot%20(291).png)
 
 ### Step 5 :- Add Build Step
 
-1) Go to Build → Add build step  
-2) Select Invoke top-level Maven targets
+#### 1) Go to Build → Add build step  
+#### 2) Select Invoke top-level Maven targets
 
 Configure:
 
